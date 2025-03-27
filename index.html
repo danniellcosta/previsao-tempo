@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/logo.jpg">
+</head>
+<body>
+    <header class="header">
+        <input id="local" class="input" type="text" placeholder="Digite a localização que deseja ver">
+        <input onclick="buscarClima()" class="local-btn" type="button" value="Buscar Previsão">
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <p id="text-msg">Digite o nome da cidade que deseja buscar informações climáticas</p>
+                
+                <div class="loader" style="display: none;"></div>
+                
+                <!-- Botões para escolher entre previsão atual e futura -->
+                <div id="topic-buttons" class="hidden">
+                    <button onclick="AplicacaoClima.mostrarPrevisaoAtual()" class="card-btn">Previsão Atual</button>
+
+                    <button onclick="AplicacaoClima.mostrarPrevisaoFutura()" class="card-btn">Previsão Futura (5 dias)</button>
+                </div>
+            
+                <!-- Previsão Atual (única div) -->
+                <div id="previsao-atual" class="hidden">
+                    <img id="icone-previsao-atual" class="weather-icon" src="" alt="Ícone do Clima">
+                    <!-- As informações serão inseridas pelo JavaScript -->
+                </div>
+            
+                <!-- Previsão Futura -->
+                <div id="dias-previsao" class="hidden">
+                    <div id="buttons-dia"></div>
+                    <div id="previsao-futura">
+                        <img id="icone-previsao-futura" class="weather-icon" src="" alt="Ícone do Clima Futuro">
+                        <!-- As informações serão inseridas pelo JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
