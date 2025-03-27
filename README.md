@@ -6,7 +6,7 @@ Aplicação web para consulta de previsão do tempo em tempo real e para os pró
 
 ## ✨ Demonstração
 
-![GIF Demonstração](demo.gif) *(Substitua por um GIF real da sua aplicação)*
+![GIF Demonstração](demo.gif) 
 
 ## 🚀 Recursos
 
