@@ -28,7 +28,7 @@ Aplicação web para consulta de previsão do tempo em tempo real e para os pró
 
 ## 🌐 Acesse Online
 
-**Site**: [https://previsao-do-tempo-bice.vercel.app](https://previsao-do-tempo-teal.vercel.app)
+**Site**: [https://previsao-tempo-teal.vercel.app](https://previsao-tempo-teal.vercel.app)
 
 ## 🎨 Design
 
